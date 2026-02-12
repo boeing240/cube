@@ -3,6 +3,7 @@
 exports[`Views YAML includes * (a,b) + exclude id from b 1`] = `
 Object {
   "connectedComponent": undefined,
+  "dataSource": undefined,
   "description": undefined,
   "dimensions": Array [
     Object {
@@ -106,6 +107,7 @@ Object {
 exports[`Views YAML includes * + prefix a,b + exclude ids 1`] = `
 Object {
   "connectedComponent": undefined,
+  "dataSource": undefined,
   "description": undefined,
   "dimensions": Array [
     Object {
@@ -190,6 +192,7 @@ Object {
 exports[`Views YAML includes * + prefix a,b,c 1`] = `
 Object {
   "connectedComponent": undefined,
+  "dataSource": undefined,
   "description": undefined,
   "dimensions": Array [
     Object {
@@ -312,6 +315,7 @@ Object {
 exports[`Views YAML includes * + prefix b + exclude ids 1`] = `
 Object {
   "connectedComponent": undefined,
+  "dataSource": undefined,
   "description": undefined,
   "dimensions": Array [
     Object {

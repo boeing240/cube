@@ -125,6 +125,7 @@ export type CubeConfig = {
   isVisible: boolean;
   public: boolean;
   description?: string;
+  dataSource?: string
   connectedComponent: number;
   meta?: any;
   measures: MeasureConfig[];
@@ -233,6 +234,7 @@ export class CubeToMetaTransformer implements CompilerInterface {
         isVisible: isCubeVisible,
         public: isCubeVisible,
         description: extendedCube.description,
+        dataSource: extendedCube.dataSource,
         connectedComponent: this.joinGraph.connectedComponents()[cubeName],
         meta: extendedCube.meta,
         measures: Object.entries(extendedCube.measures || {}).map((nameToMetric: [string, any]) => {
